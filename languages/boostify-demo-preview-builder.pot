@@ -1,0 +1,238 @@
+# Copyright (C) 2021 boostify-demo-preview-builder
+# This file is distributed under the same license as the boostify-demo-preview-builder package.
+msgid ""
+msgstr ""
+"Project-Id-Version: boostify-demo-preview-builder\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/admin/class-admin.php:111
+msgid "Shortcode"
+msgstr ""
+
+#: inc/admin/class-metabox.php:39
+msgid "Demo Preview"
+msgstr ""
+
+#: inc/admin/class-metabox.php:51
+msgid "Demo Preview Settings"
+msgstr ""
+
+#: inc/admin/class-metabox.php:122
+msgid "Link Buy"
+msgstr ""
+
+#: inc/admin/class-metabox.php:127
+msgid "Number Demo"
+msgstr ""
+
+#: inc/class-boostify-demo-preview-builder.php:101
+msgid "Boostify Demo Preview Builder"
+msgstr ""
+
+#: inc/class-boostify-demo-preview-builder.php:102
+msgid "Add New Demo Preview"
+msgstr ""
+
+#: inc/class-boostify-demo-preview-builder.php:103
+msgid "Edit Demo Preview"
+msgstr ""
+
+#: inc/class-boostify-demo-preview-builder.php:104
+msgid "All Demo Preview"
+msgstr ""
+
+#: inc/class-boostify-demo-preview-builder.php:105
+msgid "Elementor Builder"
+msgstr ""
+
+#: inc/class-boostify-demo-preview-builder.php:219
+msgid "Your current theme is not supported Boostify Demo Preview Plugin"
+msgstr ""
+
+#: inc/elementor/class-elementor.php:56
+msgid "Boostify Demo Preview"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:48, inc/elementor/widgets/class-image-retina.php:80, inc/elementor/widgets/class-image-retina.php:174
+msgid "Retina Image"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:86
+msgid "Choose Default Image"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:99
+msgid "Choose Retina Image"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:113
+msgid "Image Size"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:120
+msgid "Alignment"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:124
+msgid "Left"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:128
+msgid "Center"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:132
+msgid "Right"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:146
+msgid "Custom Caption"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:149
+msgid "Enter your image caption"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:157
+msgid "Link"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:159, inc/elementor/widgets/class-landing-image.php:126
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:182
+msgid "Width"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:218
+msgid "Max Width"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:254
+msgid "Border Style"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:259
+msgid "None"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:260
+msgid "Solid"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:261
+msgid "Double"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:262
+msgid "Dotted"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:263
+msgid "Dashed"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:273
+msgid "Border Width"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:295
+msgid "Border Color"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:310
+msgid "Border Radius"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:324
+msgid "Normal"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:331, inc/elementor/widgets/class-image-retina.php:365
+msgid "Opacity"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:359
+msgid "Hover"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:391
+msgid "Hover Animation"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:398
+msgid "Transition Duration"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:428
+msgid "Caption"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:436
+msgid "Text Color"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:448
+msgid "Background Color"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:467
+msgid "Padding"
+msgstr ""
+
+#: inc/elementor/widgets/class-image-retina.php:478
+msgid "Caption Top Spacing"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:57, inc/elementor/widgets/class-landing-image.php:86, inc/elementor/widgets/class-landing-image.php:174
+msgid "Landing Image"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:93
+msgid "Choose Image"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:107
+msgid "Title Text"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:112
+msgid "This is the heading"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:113
+msgid "Enter your text title"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:121
+msgid "Link to"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:136
+msgid "Content"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:144
+msgid "Title"
+msgstr ""
+
+#: inc/elementor/widgets/class-landing-image.php:195
+msgid "View Demo"
+msgstr ""
+
+#: inc/helper.php:67
+msgid "Buy"
+msgstr ""
+
+#: inc/helper.php:73
+msgid "Demos"
+msgstr ""
