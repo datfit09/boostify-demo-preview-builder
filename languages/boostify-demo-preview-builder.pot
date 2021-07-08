@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: inc/admin/class-admin.php:111
+#: inc/admin/class-admin.php:88
 msgid "Shortcode"
 msgstr ""
 

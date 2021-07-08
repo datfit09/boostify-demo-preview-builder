@@ -68,12 +68,18 @@ function bosstify_demo_preview() {
 		</a>
 
 		<div class="boostify-demo-preview-popup">
-			<div class="boostify-show-demos-preview boostify-show-demos">
+			<div class="boostify-show-demos-preview">
 				<span class="boostify-text-demo">
 					<?php esc_html_e( 'Demos', 'boostify' ); ?>
+
+					<img src="<?php echo esc_url( BOOSTIFY_DEMO_PREVIEW_URL . 'assets/images/boostify.png' ); ?>" alt="<?php echo esc_attr( 'Boostify Logo' ); ?>" class="boostify-logo">
 				</span>
 
-				<span class="boostify-demo-count">
+				<span class="boostify-demo-count before">
+					<?php echo esc_html( $demo_number ); ?>
+				</span>
+
+				<span class="boostify-demo-count after">
 					<?php echo esc_html( $demo_number ); ?>
 				</span>
 			</div>
@@ -83,7 +89,7 @@ function bosstify_demo_preview() {
 				<div class="cd-popup-container">
 					<?php the_content(); ?>
 				</div>
-				<a href="#0" class="cd-popup-close"></a>
+				<a href="#" class="cd-popup-close"></a>
 			</div> <!-- cd-popup -->
 		</div>
 		<?php

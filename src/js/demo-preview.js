@@ -10,23 +10,21 @@
 function boostifyDemoPreview() {
 	var demoPreview = jQuery( '.boostify-demo-preview-popup' ),
 		popUp       = jQuery( '.cd-popup' ),
-		button      = jQuery( '.boostify-show-demos-preview' );
+		button      = jQuery( '.boostify-show-demos-preview' ),
+		close       = jQuery( '.cd-popup-close' );
 
-	demoPreview.on(
+	button.on(
 		'click',
 		function(e) {
 			e.preventDefault();
-			demoPreview.toggleClass( 'is-visible' );
+			popUp.toggleClass( 'is-visible' );
 		}
 	);
 
-	demoPreview.click(
+	close.on(
+		'click',
 		function() {
-			if ( demoPreview.hasClass( 'is-visible' ) ) {
-				button.addClass( 'boostify-demos-open' );
-			} else {
-				button.removeClass( 'boostify-demos-open' );
-			}
+			popUp.removeClass( 'is-visible' );
 		}
 	);
 
@@ -34,7 +32,7 @@ function boostifyDemoPreview() {
 	jQuery( document ).keyup(
 		function( event ) {
 			if ( event.which == '27' ) {
-				jQuery( '.cd-popup' ).removeClass( 'is-visible' );
+				popUp.removeClass( 'is-visible' );
 			}
 		}
 	);

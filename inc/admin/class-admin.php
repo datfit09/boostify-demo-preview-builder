@@ -56,33 +56,10 @@ class Admin {
 		);
 
 		wp_enqueue_style(
-			'select2-css',
-			BOOSTIFY_DEMO_PREVIEW_URL . '/assets/css/admin/select2.css',
-			array(),
-			BOOSTIFY_DEMO_PREVIEW_VER
-		);
-
-		wp_enqueue_style(
 			'ionicons',
 			BOOSTIFY_DEMO_PREVIEW_URL . '/assets/css/ionicons.css',
 			array(),
 			BOOSTIFY_DEMO_PREVIEW_VER
-		);
-
-		wp_enqueue_script(
-			'select2',
-			BOOSTIFY_DEMO_PREVIEW_URL . 'assets/js/select2' . boostify_demo_preview_suffix() . '.js',
-			array( 'jquery' ),
-			BOOSTIFY_DEMO_PREVIEW_VER,
-			true
-		);
-
-		wp_enqueue_script(
-			'boostify-custom',
-			BOOSTIFY_DEMO_PREVIEW_URL . 'assets/js/custom.js',
-			array( 'jquery' ),
-			BOOSTIFY_DEMO_PREVIEW_VER,
-			true
 		);
 	}
 
@@ -92,7 +69,7 @@ class Admin {
 	public function load_wp_style() {
 		wp_enqueue_script(
 			'boostify-dp-demo-preview',
-			BOOSTIFY_DEMO_PREVIEW_URL . 'assets/js/demo-preview.js',
+			BOOSTIFY_DEMO_PREVIEW_URL . 'assets/js/demo-preview.min.js',
 			array( 'jquery' ),
 			BOOSTIFY_DEMO_PREVIEW_VER,
 			true
