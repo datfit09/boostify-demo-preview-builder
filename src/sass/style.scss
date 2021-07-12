@@ -348,3 +348,10 @@ a.buy-boostify {
 		color: #e5bc3f;
 	}
 }
+
+.elementor-editor-active {
+	.buy-boostify,
+	.boostify-demo-preview-popup {
+		display: none;
+	}
+}

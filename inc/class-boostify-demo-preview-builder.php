@@ -64,7 +64,7 @@ if ( ! class_exists( 'Boostify_Demo_Preview_Builder' ) ) {
 			add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_icon' ), 99 );
 			add_action( 'admin_notices', array( $this, 'notice_plugin' ) );
 			add_action( 'admin_notices', array( $this, 'notice_theme_support' ) );
-			add_action( 'wp_footer', 'bosstify_demo_preview' );
+			add_action( 'wp_footer', 'boostify_demo_preview' );
 		}
 
 		/**

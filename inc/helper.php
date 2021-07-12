@@ -34,7 +34,7 @@ if ( ! function_exists( 'boostify_img_alt' ) ) {
 /**
  * Bosstify demo preview
  */
-function bosstify_demo_preview() {
+function boostify_demo_preview() {
 	global $post;
 
 	$args  = array(

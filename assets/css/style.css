@@ -355,3 +355,8 @@ a.buy-boostify:hover svg {
 .boostify-landing-image-title a:focus {
   color: #e5bc3f;
 }
+
+.elementor-editor-active .buy-boostify,
+.elementor-editor-active .boostify-demo-preview-popup {
+  display: none;
+}
